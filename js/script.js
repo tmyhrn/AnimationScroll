@@ -1,6 +1,6 @@
 //監視対象が範囲内に現れたら実行する動作
-const showKirin = () => {
-  console.log('キリンさんです');
+const showKirin = (entries) => {
+  console.log(entries[0].target);
 };
 
 //監視ロボットの設定
